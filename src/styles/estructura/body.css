@@ -1,0 +1,17 @@
+/* body.css */
+
+.container {
+    padding: 48px;
+    margin: 35px auto; /* Centra el contenedor horizontalmente */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

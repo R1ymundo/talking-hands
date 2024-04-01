@@ -1,0 +1,11 @@
+/* TranslationResults.css */
+.translator-results {
+    width: 450px;
+    height: 180px;
+}
+
+@media (max-width: 768px) {
+    .translator-results {
+        width: 100%;
+    }
+}

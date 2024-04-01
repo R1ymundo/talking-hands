@@ -1,0 +1,18 @@
+/* footer.css */
+footer {
+    background-color: rgb(244, 222, 179);
+    color: white;
+    padding: 10px 20px; /* Añade un poco de espacio vertical y horizontal */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Media query para hacer el footer responsive */
+@media (max-width: 768px) {
+    footer {
+        padding: 5px 10px; /* Reduce el espacio en pantallas más pequeñas */
+    }
+}

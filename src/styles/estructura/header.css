@@ -1,0 +1,27 @@
+/* header.css */
+header {
+    background-color: rgb(244, 222, 179);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    height: 4%;
+    width: 4%;
+    justify-content: left;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    img {
+        height: 8%; 
+        width: 8%; 
+    }
+}
