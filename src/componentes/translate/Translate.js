@@ -55,27 +55,27 @@ function Translate() {
     
     return (
         <div className='video-container'>
-        <div className='reproductor-container'>
-            <div className='reproductor'>
-                <ReactPlayer
-                    ref={playerRef}
-                    url={require('../../videos/a.mp4')}
-                    width='100%'
-                    height='100%'
-                    playing={playing}
-                    playbackRate={0.5}
-                    className='react-player'
-                    onEnded={handleVideoEnded}
-                />
+            <div className='reproductor-container'>
+                <div className='reproductor'>
+                    <ReactPlayer
+                        ref={playerRef}
+                        url={require('../../videos/a.mp4')}
+                        width='100%'
+                        height='100%'
+                        playing={playing}
+                        playbackRate={0.5}
+                        className='react-player'
+                        onEnded={handleVideoEnded}
+                    />
+                </div>
             </div>
-        </div>
+        
         <div className='container-botons'>
             <div className='boton-container'>
                 <button className="stop-button" onClick={() => { setPlaying(false); handleStop(); }}><img src={stopIcon} alt='Stop' /></button>
                 <button className="play-button" onClick={() => setPlaying(prevPlaying => !prevPlaying)}><img src={playing ? pauseIcon : playIcon} alt={playing ? 'Pause' : 'Play'} /></button>
                 <button className="fullscreen-button" onClick={handleFullScreen}><img src={fullscreenIcon} alt='Fullscreen' /></button>
             </div>
-
             <SearchBar onSearch={handleSearch}/>
         </div>
     </div>

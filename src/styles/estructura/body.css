@@ -1,4 +1,10 @@
 /* body.css */
+.translate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .container {
     padding: 48px;

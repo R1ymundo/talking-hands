@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Translate from '../translate/Translate';
 
 function Body() {
     
     
     return (
-        <div>
-            <Translate/>
-            
-        </div>
-        
+        <Translate/>
     );  
 }
 
