@@ -4,9 +4,28 @@ import playIcon from '../../images/play.png';
 import pauseIcon from '../../images/pausa.png';
 import stopIcon from '../../images/parar.png';
 import fullscreenIcon from '../../images/full_screen.png';
+import SearchBar from './SearchBar';
 import '../../styles/translate/Translate.css';
 
 function Translate() {
+
+    const [translatedText, setTranslatedText] = useState('');
+
+    const handleSearch = (searchText) => {
+        console.log('Texto de búsqueda:', searchText);
+        // Aquí podrías realizar la lógica para la traducción
+        if (searchText.trim() === '') {
+            setTranslatedText('');
+        } else {
+            handleTranslation(searchText);
+        }
+    };
+
+    const handleTranslation = (searchText) => {
+        // Aquí podrías realizar la lógica real de traducción
+        const translatedTextResult = '¡Hola mundo!';
+        setTranslatedText(translatedTextResult);
+    };
 
     const [playing, setPlaying] = useState(false);
     const playerRef = useRef(null);
@@ -35,26 +54,32 @@ function Translate() {
     };
     
     return (
-    <div className='video-container'>
-        <div>
-            <ReactPlayer
-                ref={playerRef}
-                url={require('../../videos/a.mp4')}
-                width='100%'
-                height='100%'
-                playing={playing}
-                playbackRate={0.5} // Cambiar a la velocidad deseada (0.5 reproduce a la mitad de la velocidad normal)
-                className='react-player'
-                onEnded={handleVideoEnded} // Manejar el evento de finalización del video
-            />
+        <div className='video-container'>
+        <div className='reproductor-container'>
+            <div className='reproductor'>
+                <ReactPlayer
+                    ref={playerRef}
+                    url={require('../../videos/a.mp4')}
+                    width='100%'
+                    height='100%'
+                    playing={playing}
+                    playbackRate={0.5}
+                    className='react-player'
+                    onEnded={handleVideoEnded}
+                />
+            </div>
         </div>
+        <div className='container-botons'>
+            <div className='boton-container'>
+                <button className="stop-button" onClick={() => { setPlaying(false); handleStop(); }}><img src={stopIcon} alt='Stop' /></button>
+                <button className="play-button" onClick={() => setPlaying(prevPlaying => !prevPlaying)}><img src={playing ? pauseIcon : playIcon} alt={playing ? 'Pause' : 'Play'} /></button>
+                <button className="fullscreen-button" onClick={handleFullScreen}><img src={fullscreenIcon} alt='Fullscreen' /></button>
+            </div>
 
-        <div className='boton-container'>
-            <button className="stop-button" onClick={() => { setPlaying(false); handleStop(); }}><img src={stopIcon} alt='Stop' /></button>
-            <button className="play-button" onClick={() => setPlaying(prevPlaying => !prevPlaying)}><img src={playing ? pauseIcon : playIcon} alt={playing ? 'Pause' : 'Play'} /></button>
-            <button className="fullscreen-button" onClick={handleFullScreen}><img src={fullscreenIcon} alt='Fullscreen' /></button>
+            <SearchBar onSearch={handleSearch}/>
         </div>
     </div>
+
     );
 }
 
