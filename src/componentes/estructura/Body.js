@@ -1,11 +1,14 @@
 import React from 'react';
 import Translate from '../translate/Translate';
 
-function Body() {
-    
+function Body() {  
+
     
     return (
-        <Translate/>
+        <div className="video-container">
+            <Translate/>
+        </div>
+        
     );  
 }
 

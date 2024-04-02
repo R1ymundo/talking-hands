@@ -5,6 +5,7 @@ import Footer from './componentes/estructura/Footer';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <Header />

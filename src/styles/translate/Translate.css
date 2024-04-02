@@ -48,7 +48,8 @@
 
 .video-container {
     display: flex; /* Usa flexbox para establecer el diseño */
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    height: 90vh; /* Ocupa toda la altura de la pantalla */
+    margin: 30px;
 }
 
 .reproductor-container,
