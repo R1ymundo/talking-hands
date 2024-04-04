@@ -5,7 +5,7 @@ function Body() {
 
     
     return (
-        <div className="video-container">
+        <div className="body-container">
             <Translate/>
         </div>
         

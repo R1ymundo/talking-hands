@@ -1,16 +1,13 @@
-/* footer.css */
 footer {
-    /* background-color: rgb(244, 222, 179);
-    color: white;
-    padding: 10px 20px; 
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    width: 100%; */
     background-color: rgb(244, 222, 179);
     color: black;
     padding: 20px;
     text-align: center;
+    position: fixed; /* Fija el pie de página en la ventana del navegador */
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Asegura que esté en la capa superior */
     display: flex;
     justify-content: flex-start;
 }
