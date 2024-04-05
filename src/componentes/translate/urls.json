@@ -1,27 +1,344 @@
 {
     "videos": [
         {
-            "id": 1,
             "title": "a",
             "url": "../../videos/a.mp4"
         },
         {
-            "id": 2,
             "title": "e",
             "url": "../../videos/e.mp4"
         },
         {
-            "id": 3,
             "title": "i",
             "url": "../../videos/i.mp4"
         },
         {
-            "id": 4,
             "title": "o",
             "url": "../../videos/o.mp4"
         },
         {
-            "id": 5,
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "adjetivos": [
+        {
+            "title": "adjetivo",
+            "url": "ADJETIVO"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],  
+    
+    "alimentos": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "animales": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],
+    
+    "antonimos": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "calendario": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],  
+    
+    "casa": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "colores": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],
+
+    "cuerpo": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "escuela": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],  
+    
+    "familia": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "frutas": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],
+    
+    "numeros": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ], 
+
+    "estados": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
+            "title": "u",
+            "url": "../../videos/u.mp4"
+        }
+    ],  
+    
+    "otros": [
+        {
+            "title": "a",
+            "url": "../../videos/a.mp4"
+        },
+        {
+            "title": "e",
+            "url": "../../videos/e.mp4"
+        },
+        {
+            "title": "i",
+            "url": "../../videos/i.mp4"
+        },
+        {
+            "title": "o",
+            "url": "../../videos/o.mp4"
+        },
+        {
             "title": "u",
             "url": "../../videos/u.mp4"
         }

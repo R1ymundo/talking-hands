@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 import playIcon from '../../images/play.png';
 import pauseIcon from '../../images/pausa.png';
 import stopIcon from '../../images/parar.png';
@@ -10,14 +10,18 @@ import '../../styles/translate/Translate.css';
 function Translate() {
 
     const [translatedText, setTranslatedText] = useState('');
+    const [videoUrl, setVideoUrl] = useState('');
 
     const handleSearch = (searchText) => {
         console.log('Texto de búsqueda:', searchText);
-        // Aquí podrías realizar la lógica para la traducción
-        if (searchText.trim() === '') {
-            setTranslatedText('');
-        } else {
+        try {
+            if (searchText.trim() === '') {
+                throw new Error('El campo de búsqueda está vacío');
+            }
             handleTranslation(searchText);
+            setVideoUrl(`https://app.dems.ipn.mx/prototipos/files/videos/${searchText}.mp4`); // Reemplaza 'URL_BASE' por la base de la URL de tus videos
+        } catch (error) {
+            console.error(error.message);
         }
     };
 
@@ -64,8 +68,8 @@ function Translate() {
                 <div className='reproductor'>
                     <ReactPlayer
                         ref={playerRef}
-                        url={require('../../videos/a.mp4')}
-                        width='auto%'
+                        url={videoUrl}
+                        width='100%'
                         height='100%'
                         playing={playing}
                         playbackRate={0.5}
