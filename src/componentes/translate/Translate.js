@@ -72,7 +72,7 @@ function Translate() {
                         width='100%'
                         height='100%'
                         playing={playing}
-                        playbackRate={0.5}
+                        playbackRate={0.75}
                         className='react-player'
                         onEnded={handleVideoEnded}
                     />

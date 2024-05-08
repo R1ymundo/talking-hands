@@ -9,7 +9,7 @@ export function handleMicrophoneClick(setSearchText) {
     }
 
     recognition = new window.webkitSpeechRecognition();
-    recognition.lang = 'es'; // Establece el idioma de reconocimiento (puede variar según tu necesidad)
+    recognition.lang = 'es'; // Establece el idioma de reconocimiento
 
     recognition.onresult = function(event) {
         const result = event.results[0][0].transcript;
