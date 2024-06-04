@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/talking-hands/static/css/main.b635937d.css",
-    "main.js": "/talking-hands/static/js/main.2378c5f5.js",
+    "main.js": "/talking-hands/static/js/main.346f792a.js",
     "reactPlayerYouTube.js": "/talking-hands/static/js/reactPlayerYouTube.1b8b8fbe.chunk.js",
     "reactPlayerSoundCloud.js": "/talking-hands/static/js/reactPlayerSoundCloud.15131ed0.chunk.js",
     "reactPlayerVimeo.js": "/talking-hands/static/js/reactPlayerVimeo.ac483ba2.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/microfono.png": "/talking-hands/static/media/microfono.ff017aef99edba84612e.png",
     "index.html": "/talking-hands/index.html",
     "main.b635937d.css.map": "/talking-hands/static/css/main.b635937d.css.map",
-    "main.2378c5f5.js.map": "/talking-hands/static/js/main.2378c5f5.js.map",
+    "main.346f792a.js.map": "/talking-hands/static/js/main.346f792a.js.map",
     "reactPlayerYouTube.1b8b8fbe.chunk.js.map": "/talking-hands/static/js/reactPlayerYouTube.1b8b8fbe.chunk.js.map",
     "reactPlayerSoundCloud.15131ed0.chunk.js.map": "/talking-hands/static/js/reactPlayerSoundCloud.15131ed0.chunk.js.map",
     "reactPlayerVimeo.ac483ba2.chunk.js.map": "/talking-hands/static/js/reactPlayerVimeo.ac483ba2.chunk.js.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.b635937d.css",
-    "static/js/main.2378c5f5.js"
+    "static/js/main.346f792a.js"
   ]
 }
